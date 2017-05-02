@@ -1,0 +1,30 @@
+HILTS: Hearing Impaired Learning Transcript System
+Authors: Daniel Amick, Thanh Pham, Peter Tsongalis
+
+Student GUI:
+	
+	Must be run using Python 3.4.x on a Raspberry Pi that is connected 
+	to the same network as the teacher's Raspberry Pi.
+	
+	Once started, the student must type in the IP address of the teacher's 
+	Raspberry Pi and press connect to begin receiving the class transcript.
+	
+	To send a question to the teacher, the student must type a question into 
+	the appropriate box and press the send question button.
+	
+	
+Teacher GUI:
+
+	Must be run using Python 3.4.x on a Raspberry Pi with Google Speech API,
+	microphone, RabbitMQ, and GPIO capabilities. 
+	
+	Once started, the teacher can choose a language to begin a transcript in and
+	can then choose to start the transcript. Once the transcript has begun, the teacher
+	wears the microphone and gives the lecture which is transcripted and sent to all
+	of the connected student's Raspberry Pi's. 
+	
+	Overhead involved in setting up the teacher's Raspberry Pi can be resolved by 
+	visiting the following documentation sites:
+	
+		Google Cloud Speech API: https://cloud.google.com/speech/docs/
+		RabbitMQ Server Setup: https://www.rabbitmq.com/
