@@ -1,6 +1,9 @@
 HILTS: Hearing Impaired Learning Transcript System
 Authors: Daniel Amick, Thanh Pham, Peter Tsongalis
 
+The goal of HILTS is to provide a unique experience for hearing impaired students by allowing participation in courses with no accommodations for these students at low cost.
+HILTS accomplishes this by providing a transcript of the course from the teacher to the student while allowing students to post questions to the teacher via a GUI.
+
 Student GUI:
 	
 	Must be run using Python 3.4.x on a Raspberry Pi that is connected 
